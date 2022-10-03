@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>表单</title>
+	</head>
+	<body>
+		<div class="background_image">
+			<table class="table_a" id="demo">
+				<caption>
+					<h1>网页制作清单</h1>
+				</caption>
+				<tr class="tr_1">
+					<th>编号</th>
+					<th>网页标题</th>
+					<th>网页作者</th>
+					<th>制作日期</th>
+					<th>学习方式</th>
+				</tr>
+				<tr class="tr_2">
+					<td>1</td>
+					<td><a>学习园地欢迎致辞主题网页</a></td>
+					<td>xiao</td>
+					<td>2022/9/24</td>
+					<td><a href="study.html">跳转网页</a></td>
+				</tr>
+				<tr class="tr_3">
+					<td>2</td>
+					<td><a>原神</a></td>
+					<td>大伟哥</td>
+					<td>2022/10/1</td>
+					<td><a href="https://ys.mihoyo.com/" target="_blank">原神官网</a></td>
+				</tr>
+				<tr class="tr_4">
+					<td>3</td>
+					<td>CSND编程社区</td>
+					<td>不详</td>
+					<td>--/--/--</td>
+					<td><a href="https://www.csdn.net/" target="_blank">网页学习</a></td>
+				</tr>
+			</table>
+		</div>
+	</body>
+<style>
+	#demo{
+		position: relative;
+		top: 200px;
+		left: 0px;
+	}
+	.background_image{
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		min-width: 1000px;
+		z-index: -10;
+		zoom: 1;
+		background-image:url('image/img2.jpg') ;
+		background-repeat: no-repeat;
+		background-size:cover;
+		background-position: center;
+	}
+	.table_a{
+		width: 720px;
+		height: 160px;
+		/* 文字内容垂直且水平居中 */
+		text-align: center;
+		line-height: height;
+		
+		border-collapse: collapse;/* 合并单元格边框 */
+		margin: auto;/* 表格居中 */
+	}
+	tr td,th{
+		
+		border: 3px solid black;
+	}
+	</style>
+</html>
